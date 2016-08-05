@@ -46,12 +46,11 @@ package object ch9 {
   }
 
   object FileInfo {
-    val dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss")
     def apply(file: File): FileInfo = {
       val path = file.getPath
       val name = file.getName
       val parent = file.getParent
-      val modified = dateFormat.format(file.lastModified)
+      val modified = ch9.dateFormat.format(file.lastModified)
       val isDir = file.isDirectory
       val size = if (isDir) -1 else FileUtils.sizeOf(file)
       FileInfo(path, name, parent, modified, isDir, size, FileSystem.Idle)
@@ -61,7 +60,7 @@ package object ch9 {
       val path = file.getPath
       val name = file.getName
       val parent = file.getParent
-      val modified = dateFormat.format(System.currentTimeMillis)
+      val modified = ch9.dateFormat.format(System.currentTimeMillis)
       val isDir = false
       FileInfo(path, name, parent, modified, isDir, size, FileSystem.Created)
     }
@@ -69,8 +68,6 @@ package object ch9 {
   sealed trait FileEvent
   case class FileCreated(path: String) extends FileEvent
   case class FileDeleted(path: String) extends FileEvent
-
-
-case class FileModified(path: String) extends FileEvent
+  case class FileModified(path: String) extends FileEvent
 
 
