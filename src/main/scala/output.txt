@@ -1,0 +1,14 @@
+total 4
+drwxr-xr-x 1 infosea None 0 Aug  1 09:36 .
+drwxr-xr-x 1 infosea None 0 Aug  1 09:36 ..
+drwxr-xr-x 1 infosea None 0 Aug  1 09:36 java
+drwxr-xr-x 1 infosea None 0 Aug  1 09:36 resources
+drwxr-xr-x 1 infosea None 0 Aug  2 00:48 scala
+drwxr-xr-x 1 infosea None 0 Aug  1 09:36 scala-2.11
+total 4
+drwxr-xr-x 1 infosea None 0 Aug  1 09:36 .
+drwxr-xr-x 1 infosea None 0 Aug  1 09:36 ..
+drwxr-xr-x 1 infosea None 0 Aug  1 09:36 java
+drwxr-xr-x 1 infosea None 0 Aug  1 09:36 resources
+drwxr-xr-x 1 infosea None 0 Aug  2 00:48 scala
+drwxr-xr-x 1 infosea None 0 Aug  1 09:36 scala-2.11
