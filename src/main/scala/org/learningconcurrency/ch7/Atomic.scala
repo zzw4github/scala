@@ -1,5 +1,5 @@
 package org.learningconcurrency.ch7
-import org.learningconcurrency.ch1.PrintLogging.log
+import org.learningconcurrency.log
 object AtomicHistoryBad extends App {
   import java.util.concurrent.atomic._
   import scala.annotation.tailrec

@@ -1,6 +1,6 @@
 package org.learningconcurrency.ch3
 
-import org.learningconcurrency.ch1.PrintLogging.log
+import org.learningconcurrency.log
 import org.learningconcurrency.ch2
 
 object LazyValsCreate extends App {

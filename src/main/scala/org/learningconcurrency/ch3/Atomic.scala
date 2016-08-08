@@ -1,6 +1,6 @@
 package org.learningconcurrency.ch3
 
-import org.learningconcurrency.ch1.PrintLogging.log
+import org.learningconcurrency.log
 object AtomicUid extends App {
   import java.util.concurrent.atomic._
   private val uid = new AtomicLong(0L)

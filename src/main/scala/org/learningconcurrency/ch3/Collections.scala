@@ -1,5 +1,5 @@
 package org.learningconcurrency.ch3
-import org.learningconcurrency.ch1.PrintLogging.log
+import org.learningconcurrency.log
 object CollectionsBad extends App {
   import scala.collection._
 

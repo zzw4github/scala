@@ -1,6 +1,6 @@
 package org.learningconcurrency.ch3
 
-import org.learningconcurrency.ch1.PrintLogging.log
+import org.learningconcurrency.log
 
 object ExecutorsCreate extends App {
   import scala.concurrent._

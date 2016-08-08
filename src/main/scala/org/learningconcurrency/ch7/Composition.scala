@@ -1,5 +1,5 @@
 package org.learningconcurrency.ch7
-import org.learningconcurrency.ch1.PrintLogging.log
+import org.learningconcurrency.log
 object CompositionSideEffects extends App {
   import scala.concurrent._
   import ExecutionContext.Implicits.global

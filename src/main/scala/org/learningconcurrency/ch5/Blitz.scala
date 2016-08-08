@@ -1,5 +1,5 @@
 package org.learningconcurrency.ch5
-import org.learningconcurrency.ch1.PrintLogging.log
+import org.learningconcurrency.log
 import scala.collection._
 import scala.collection.par._
 import scala.collection.par.Scheduler.Implicits.global

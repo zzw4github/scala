@@ -1,11 +1,11 @@
 package org.learningconcurrency.ch4
 
-import org.learningconcurrency.ch1.PrintLogging.log
+import org.learningconcurrency.log
 object AsyncBasic extends App {
   import scala.concurrent._
   import ExecutionContext.Implicits.global
   import scala.async.Async.{async, await}
-  import org.learningconcurrency.ch1.PrintLogging.log
+  import org.learningconcurrency.log
   val workerName: Future[String] = async {
     Thread.currentThread.getName
   }

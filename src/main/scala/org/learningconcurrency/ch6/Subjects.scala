@@ -1,5 +1,5 @@
 package org.learningconcurrency.ch6
-import org.learningconcurrency.ch1.PrintLogging.log
+import org.learningconcurrency.log
 object SubjectsOS extends App {
   import rx.lang.scala._
   import scala.concurrent.duration._

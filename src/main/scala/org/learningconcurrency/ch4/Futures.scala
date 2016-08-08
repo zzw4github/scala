@@ -1,5 +1,5 @@
 package org.learningconcurrency.ch4
-import org.learningconcurrency.ch1.PrintLogging.log
+import org.learningconcurrency.log
 object FuturesComputation extends App {
   import scala.concurrent._
   import ExecutionContext.Implicits.global

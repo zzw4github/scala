@@ -8,7 +8,7 @@ import scala.collection._
 import scala.collection.convert.decorateAsScala._
 import org.apache.commons.io.FileUtils
 
-import org.learningconcurrency.ch1.PrintLogging.log
+import org.learningconcurrency.log
 
 object FileSystemTest extends App {
   val fileSystem = new FileSystem(".")

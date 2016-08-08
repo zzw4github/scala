@@ -1,6 +1,6 @@
 package org.learningconcurrency.ch5
 import org.learningconcurrency.ch4
-import org.learningconcurrency.ch1.PrintLogging.log
+import org.learningconcurrency.log
 object ConcurrentWrong extends App {
   import scala.collection._
   import scala.concurrent.ExecutionContext.Implicits.global

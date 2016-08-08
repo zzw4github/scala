@@ -1,6 +1,6 @@
 package org.learningconcurrency.ch3
 
-import org.learningconcurrency.ch1.PrintLogging.log
+import org.learningconcurrency.log
 object ProcessRun extends App {
   import scala.sys.process._
 

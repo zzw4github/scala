@@ -1,6 +1,7 @@
 package org.learningconcurrency.ch9
 
 import org.learningconcurrency.ch8
+
 import scala.util.Try
 import scala.concurrent._
 import scala.concurrent.ExecutionContext.Implicits.global

@@ -1,5 +1,5 @@
 package org.learningconcurrency.ch6
-import org.learningconcurrency.ch1.PrintLogging.log
+import org.learningconcurrency.log
 object SchedulersComputation extends App {
   import rx.lang.scala._
 

@@ -1,6 +1,6 @@
 package org.learningconcurrency.ch5
 
-import org.learningconcurrency.ch1.PrintLogging.log
+import org.learningconcurrency.log
 
 object ParBasic extends App {
   import scala.collection._
