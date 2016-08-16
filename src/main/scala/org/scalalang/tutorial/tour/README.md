@@ -1,0 +1,1 @@
+http://docs.scala-lang.org/tutorials/tour/compound-types
