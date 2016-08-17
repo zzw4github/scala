@@ -7,7 +7,7 @@ class AnonymousFunction {
 
 }
 
-object AnonymousFunction extends App {
+object AnonymousFunction extends scala.App {
   val aFunc = new Function1[Int, Int]{
     def apply(x: Int): Int = x + 1
   };

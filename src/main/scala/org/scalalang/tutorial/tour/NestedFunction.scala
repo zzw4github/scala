@@ -7,7 +7,7 @@ class NestedFunction {
 
 }
 
-object FilterTest extends App {
+object FilterTest extends scala.App {
   def filter(xs: List[Int], threshold: Int) = {
     def process(ys: List[Int]): List[Int] =
       if (ys.isEmpty) ys

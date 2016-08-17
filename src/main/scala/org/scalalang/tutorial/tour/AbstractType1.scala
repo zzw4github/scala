@@ -6,15 +6,15 @@ package org.scalalang.tutorial.tour
 abstract class Buffer1[+T] {
   val element: T
 }
-abstract class SeqBuffer[U, +T <: Seq[U]] extends Buffer1[T] {
+abstract class SeqBuffer1[U, +T <: Seq[U]] extends Buffer1[T] {
   def length = element.length
 }
 object AbstractTypeTest2 extends scala.App {
-  def newIntSeqBuf(e1: Int, e2: Int): SeqBuffer[Int, Seq[Int]] =
-    new SeqBuffer[Int, List[Int]] {
+  def newIntSeqBuf1(e1: Int, e2: Int): SeqBuffer1[Int, Seq[Int]] =
+    new SeqBuffer1[Int, List[Int]] {
       val element = List(e1, e2)
     }
-  val buf = newIntSeqBuf(7, 8)
+  val buf = newIntSeqBuf1(7, 8)
   println("length = " + buf.length)
   println("content = " + buf.element)
 }

@@ -19,3 +19,6 @@ project/plugins/project/
 .worksheet
 
 .idea
+project/project/
+src/main/scala-2.11/
+src/test/
