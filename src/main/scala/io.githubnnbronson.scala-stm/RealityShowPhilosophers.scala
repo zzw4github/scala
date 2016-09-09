@@ -1,7 +1,7 @@
 package scala.concurrent.stm
 package examples
 
-import annotation.tailrec
+import scala.annotation.tailrec
 
 /** This extends a solution to the dining philosopher's problem to include an
   *  outside perspective that occasionally examines everything that is
