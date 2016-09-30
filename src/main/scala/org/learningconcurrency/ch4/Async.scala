@@ -13,7 +13,7 @@ object AsyncBasic extends App {
   workerName foreach {
     name => log(s"Future completed by worker $name")
   }
-
+  Thread sleep 1000
 }
 
 
